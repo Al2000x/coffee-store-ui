@@ -1,5 +1,5 @@
 import React from 'react';
-import LeftSide from '../LeftSide';
+import LeftSide from './LeftSide';
 import "../../css/Header.css";
 
 const Header = () => {
