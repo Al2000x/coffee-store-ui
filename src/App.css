@@ -38,3 +38,30 @@ h1{
     transform: rotate(360deg);
   }
 }
+.wrapper {
+  background: #DAB88B;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Set the wrapper to occupy the full viewport height */
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0px 10%;
+  padding: 0 20px;
+  flex: 1; /* Allow the container to expand and fill available space */
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* auto for header, 1fr for body, auto for footer */
+}
+
+.body {
+  max-height: 800px; /* Set the default height for the body */
+  overflow-y: auto; /* Enable vertical scrolling when content exceeds 800px */
+  width: 100%;
+}
+
+.footer {
+  background-color: #282c34; /* Add a background color for the footer */
+  color: white;
+  text-align: center;
+}

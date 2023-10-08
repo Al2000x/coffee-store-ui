@@ -1,0 +1,21 @@
+header{
+    background-color: #C08261;
+
+}
+.logoImg {
+    display: inline-block; 
+    vertical-align: middle; 
+    width: 150px;
+  }
+  
+  h1 {
+    display: inline-block; 
+    vertical-align: middle;
+  }
+
+  .sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff; 
+    z-index: 100; 
+  }
